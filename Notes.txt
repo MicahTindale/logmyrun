@@ -1,0 +1,1 @@
+To set this up on a local machine, I would have to use WAMP and change the database login settings.

@@ -1,0 +1,257 @@
+:root {
+	--color-1: white;
+	--color-2: rgb(217, 0, 40); 
+	--color-2-dark: rgb(140, 0, 20);
+	--color-2-darker: rgb(100, 0, 15);
+
+}
+#recent_run_header {
+	transition: all 0.3s;
+}
+
+.person {
+	padding: 0px;
+	position: relative;
+}
+.person input {
+	margin: 0px;
+}
+
+.person .img {
+	position: absolute;
+	right: 15px;
+	top: 15px;
+}
+.person .img:hover {
+	content: url("red_x.png");
+}
+
+#search input {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 10px;
+}
+#recent_run_header .input{
+ background: -webkit-linear-gradient(var(--color-2), var(--color-2-dark));
+  color: white;
+  padding: 7px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  float: right;
+  margin: 0px;
+  font-weight: bold;
+  border-radius: 10px 2px 10px 2px;
+  box-shadow: 0px 1px 4px black;
+	transition:  0.6s;
+	width: 200px;
+	margin-top: 30px;
+	margin-left: 300px;
+	}	
+#recent_run_header .input:hover {background: -webkit-linear-gradient(var(--color-1), rgb(200,200,200)); color: var(--color-2);}
+
+
+
+#recent_run {
+	padding: 10px;
+	text-align: left; 
+	margin-top: 10px; 
+	margin-left: 10px; 
+	margin-right: 10px;
+	transition: background 0.3s;
+	border-radius: 0px 10px 0px 10px;
+	border-bottom: 3px solid var(--color-2-dark);
+}
+#desc {
+	margin-left: 10px; 
+	margin-right: 10px;
+	text-align: left;
+	padding: 20px;
+
+}
+#recent_run:hover {
+	background: rgb(210,210,210);
+}
+#h22 {
+	font-weight: bold;
+	font-size: 30px;
+	font-family: Arial;
+	margin: 10px;
+}
+
+h2 {
+	font-family: Arial;
+	font-weight: normal;
+	color: rgb(140,140,140);
+	font-size: 20px;
+	margin: 4px;
+	background: none;
+}
+
+h1 {
+	margin: 0px;
+	font-family: Arial;
+	font-weight: normal;
+	color: var(--color-2);
+	font-size: 55px;
+	background: -webkit-linear-gradient(var(--color-2), rgb(130,0,0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	
+}
+h3 {
+	font-family: Arial;
+	font-weight: normal;
+	color: rgb(140,140,140);
+	font-size: 20px;
+	margin: 4px;
+	background: none;
+}
+
+h3:hover {
+	background: rgb(150,150,150);
+	color: white;
+}
+
+
+#CENTER {
+	font-family: Arial;
+	color: rgb(125,125,125);
+	background: white;
+	width: 50%;
+	margin: auto;
+	margin-top: 15%;
+	  box-shadow: 0px 4px 10px black;
+
+}
+
+#CENTER input {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 25px;
+	width: 80%;
+	height: 50px;
+	margin-bottom: 5px;
+	color: white;
+	background: var(--color-2);
+	background: -webkit-linear-gradient(var(--color-2), rgb(130,0,0));
+}
+#CENTER input:focus {
+	outline: none;
+}
+
+#CENTER_2 {
+	font-family: Arial;
+	color: rgb(125,125,125);
+	background: none;
+	width: 80%;
+	margin: auto;
+	  padding: 0px;
+
+}
+
+#CENTER_2 input {
+		font-family: Arial;
+	font-size: 20px;
+	text-align: center;
+	margin: 5px;
+	width: 90%;
+	background: white;
+	transition: background 0.3s;
+}
+#CENTER_2 input:hover {
+	background: var(--color-2);
+	color: white;
+}
+
+
+
+#my_profile input{
+	font-family: Arial;
+	font-size: 20px;
+	text-align: center;
+	margin: 5px;
+	width: 300px;
+	background: white;
+	transition: background 0.3s;
+}
+#my_profile input:hover {
+	background: var(--color-2);
+	color: white;
+}
+
+#head {
+	font-family: Arial;
+	font-weight: bold;
+	color: var(--color-2);
+	background: var(--color-1);
+	text-decoration: none;
+	padding: 10px;
+	margin: 0px;
+	margin-bottom: 10px;
+	border-radius: 15px 5px 15px 5px;
+	box-shadow: 0px 2px 5px black;
+}
+
+#head a {
+	text-decoration: none;
+	color: var(--color-2);
+	background: none;
+	padding: 11px;
+	transition: background 0.3s;
+}
+#head a:hover {
+	color: var(--color-1);
+	background: var(--color-2);
+}
+#lnk {
+	text-decoration: none;
+	font-family: Arial;
+	font-size: 25px;
+	color: black;
+	transition: 0.3s;
+}
+#lnk:hover {
+	color: var(--color-2);
+}
+
+
+#err {
+	background: rgb(100, 0 , 0);
+	text-align: center;
+	color: white;
+	font-family: Arial;
+	font-weight: bold;
+	-webkit-animation-duration: 4s;animation-duration: 4s;
+    -webkit-animation-fill-mode: both;animation-fill-mode: both;
+	position: absolute;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	left: 0px;
+	top: 15%;
+	font-size: 45px;
+	
+}
+
+
+ @-webkit-keyframes fadeOut {
+            0% {opacity: 1;}
+            100% {opacity: 0; display: none; width: 0px;}
+ }
+         
+         @keyframes fadeOut {
+            0% {opacity: 1;}
+            100% {opacity: 0; display: none; width: 0px;}
+
+         }
+		
+		 
+         
+         .fadeOut {
+            -webkit-animation-name: fadeOut;
+            animation-name: fadeOut;
+         }
+		
+		
